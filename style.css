@@ -1,0 +1,109 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-image: url(party.jpg); /* Background image */
+  background-size: cover; /* Cover entire background */
+  background-repeat: no-repeat; /* No repeating of background image */
+  background-attachment: fixed; /* Background image fixed while scrolling */
+  background-position: center; /* Center the background image */
+  font-family: Arial, sans-serif; /* Font family for the body */
+}
+
+/* Heading style */
+h1 {
+  text-align: center; /* Center-align heading */
+  color: #fff; /* White text color */
+  margin-top: 20px; /* Margin from the top */
+}
+
+/* Form styling */
+form {
+  width: 300px; /* Form width */
+  margin: 20px auto; /* Center form horizontally */
+  padding: 20px; /* Padding inside form */
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+/* Input field styling */
+form input {
+  width: 100%; /* Input field width */
+  padding: 10px; /* Padding inside input field */
+  margin: 5px 0; /* Margin top and bottom */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Button styling */
+form button {
+  width: 100%; /* Button width */
+  padding: 10px; /* Padding inside button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  background: #1fa1f2; /* Button background color */
+  color: #fff; /* Button text color */
+  font-size: 18px; /* Button font size */
+  margin-top: 10px; /* Margin from the top */
+}
+
+/* Button hover effect */
+form button:hover {
+  background: hsl(201, 9%, 63%); /* Button background color on hover */
+}
+
+/* List styling */
+ul {
+  list-style: none; /* No bullet points */
+  margin: 20px auto; /* Center the list horizontally */
+  display: flex; /* Display as flex container */
+  flex-wrap: wrap; /* Wrap items when needed */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* List item styling */
+li {
+  width: 300px; /* List item width */
+  margin: 10px; /* Margin around each list item */
+  padding: 20px; /* Padding inside each list item */
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+/* Heading inside list item styling */
+li h2 {
+  color: #333; /* Heading text color */
+  margin-bottom: 10px; /* Margin bottom */
+}
+
+/* Paragraph inside list item styling */
+li p {
+  color: #333; /* Paragraph text color */
+  margin-bottom: 10px; /* Margin bottom */
+}
+
+/* Button inside list item styling */
+li button {
+  width: 100%; /* Button width */
+  padding: 10px; /* Padding inside button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  background: #1fa1f2; /* Button background color */
+  color: #fff; /* Button text color */
+  font-size: 18px; /* Button font size */
+  margin-top: 10px; /* Margin from the top */
+}
+
+/* Button hover effect inside list item */
+li button:hover {
+  background: hsl(201, 9%, 63%); /* Button background color on hover */
+}
